@@ -13,7 +13,7 @@ export const profissional = {
   // Ajuste os contatos reais aqui:
   whatsapp: '5591981539953', // só dígitos, com DDI 55
   whatsappLabel: '(91) 98153-9953',
-  instagram: 'https://instagram.com/',
+  instagram: 'https://www.instagram.com/m.guara',
   email: 'contato@muriloguara.com.br',
   cidade: 'Belém · PA',
   enderecoLinhas: ['Centro Integrativo Bastos', 'Belém — Pará'],
