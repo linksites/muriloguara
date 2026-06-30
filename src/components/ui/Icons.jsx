@@ -142,6 +142,15 @@ export function IconInstagram(props) {
   )
 }
 
+export function IconMail(props) {
+  return (
+    <svg {...base} {...props}>
+      <rect x="3.5" y="6" width="21" height="16" rx="2.5" />
+      <path d="m4.5 8 9.5 7 9.5-7" />
+    </svg>
+  )
+}
+
 // Mapa de nomes → componente, para uso a partir dos dados em site.js
 export const iconMap = {
   fisio: IconFisio,
