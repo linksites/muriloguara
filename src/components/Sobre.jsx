@@ -20,7 +20,7 @@ export default function Sobre() {
             <div className="absolute -inset-3 rounded-[1.6rem] bg-gradient-to-br from-petroleo/15 via-transparent to-cobre/15" />
             <div className="relative overflow-hidden rounded-[1.4rem] border border-white/70 shadow-lift">
               <img
-                src="/assets/murilo-retrato.jpeg"
+                src={`${import.meta.env.BASE_URL}assets/murilo-retrato.jpeg`}
                 alt={`${profissional.nome}, fisioterapeuta`}
                 className="aspect-[4/5] w-full object-cover object-top"
                 loading="lazy"
