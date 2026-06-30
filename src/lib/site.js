@@ -180,7 +180,7 @@ export const faq = [
 ]
 
 export const stats = [
-  { valor: '+10', sufixo: 'anos', label: 'de prática clínica' },
   { valor: '3', sufixo: 'em 1', label: 'especialidades integradas' },
-  { valor: '100%', sufixo: '', label: 'avaliação individualizada' },
+  { valor: '1:1', sufixo: '', label: 'atendimento individual' },
+  { valor: '100%', sufixo: '', label: 'foco na causa da dor' },
 ]
