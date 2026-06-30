@@ -11,8 +11,8 @@ export const profissional = {
   crefito: 'CREFITO 162811-F',
   clinica: 'Centro Integrativo Bastos',
   // Ajuste os contatos reais aqui:
-  whatsapp: '5591999999999', // só dígitos, com DDI 55
-  whatsappLabel: '(91) 99999-9999',
+  whatsapp: '5591981539953', // só dígitos, com DDI 55
+  whatsappLabel: '(91) 98153-9953',
   instagram: 'https://instagram.com/',
   email: 'contato@muriloguara.com.br',
   cidade: 'Belém · PA',
