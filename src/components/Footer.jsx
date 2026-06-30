@@ -1,6 +1,6 @@
 import Logo from './ui/Logo'
 import { profissional, nav, linkWhatsApp } from '../lib/site'
-import { IconWhats, IconInstagram, IconPin, IconMail } from './ui/Icons'
+import { IconWhats, IconInstagram, IconPin, IconMail, IconPhone } from './ui/Icons'
 
 export default function Footer() {
   const ano = new Date().getFullYear()
@@ -70,6 +70,12 @@ export default function Footer() {
               <li className="flex items-center gap-2.5">
                 <IconWhats width={18} height={18} className="shrink-0 text-cobre" />
                 {profissional.whatsappLabel}
+                <span className="text-xs text-aco/50">· WhatsApp</span>
+              </li>
+              <li className="flex items-center gap-2.5">
+                <IconPhone width={18} height={18} className="shrink-0 text-cobre" />
+                {profissional.clinicaTelefone}
+                <span className="text-xs text-aco/50">· recepção</span>
               </li>
               <li>
                 <a

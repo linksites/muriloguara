@@ -61,8 +61,8 @@ export default function CTAFinal() {
         {/* cartões de info */}
         <Reveal delay={0.2}>
           <div className="mx-auto mt-14 grid max-w-3xl gap-4 sm:grid-cols-3">
-            <InfoCard Icon={IconPin} titulo="Onde" linhas={[profissional.clinica, profissional.cidade]} />
-            <InfoCard Icon={IconClock} titulo="Atendimento" linhas={['Com hora marcada', 'Seg a Sex']} />
+            <InfoCard Icon={IconPin} titulo="Onde" linhas={[profissional.clinica, 'Tv. Humaitá, 2821 — Marco', profissional.cidade]} />
+            <InfoCard Icon={IconClock} titulo="Atendimento" linhas={['Seg a Sex · 07h–18h', 'Com hora marcada']} />
             <InfoCard Icon={IconWhats} titulo="Contato" linhas={[profissional.whatsappLabel, 'WhatsApp']} />
           </div>
         </Reveal>

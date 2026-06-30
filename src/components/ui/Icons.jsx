@@ -142,6 +142,14 @@ export function IconInstagram(props) {
   )
 }
 
+export function IconPhone(props) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M9.5 4.5c.4 0 .8.3.9.7l1 3a1 1 0 0 1-.3 1.1l-1.3 1.1a12 12 0 0 0 5.7 5.7l1.1-1.3a1 1 0 0 1 1.1-.3l3 1c.4.1.7.5.7.9 0 2.2-1.8 4-4 3.8C11.3 25 5 18.7 4.7 11.8 4.5 9.6 6.3 7.8 8.5 7.8" />
+    </svg>
+  )
+}
+
 export function IconMail(props) {
   return (
     <svg {...base} {...props}>

@@ -9,14 +9,19 @@ export const profissional = {
   titulo: 'Fisioterapeuta',
   especialidades: 'Fisioterapia · Acupuntura · Quiropraxia',
   crefito: 'CREFITO 162811-F',
-  clinica: 'Centro Integrativo Bastos',
+  clinica: 'Centro Clínico de Reabilitação do Pará',
+  clinicaTelefone: '(91) 3246-9566',
   // Ajuste os contatos reais aqui:
   whatsapp: '5591981539953', // só dígitos, com DDI 55
   whatsappLabel: '(91) 98153-9953',
   instagram: 'https://www.instagram.com/m.guara',
   email: 'mrgfisio@hotmail.com',
   cidade: 'Belém · PA',
-  enderecoLinhas: ['Centro Integrativo Bastos', 'Belém — Pará'],
+  enderecoLinhas: [
+    'Centro Clínico de Reabilitação do Pará',
+    'Tv. Humaitá, 2821 — Marco',
+    'Belém — PA · CEP 66093-047',
+  ],
 }
 
 export const mensagemWhatsApp = encodeURIComponent(
